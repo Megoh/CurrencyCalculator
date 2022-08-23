@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThrows;
 public class FileCurrencyParserTests {
     @Test
     public void testNullCurrencyException() {
-        FileCurrencyParser   fileCurrencyParser = new FileCurrencyParser();
+        FileCurrencyParser fileCurrencyParser = new FileCurrencyParser();
         assertThrows(NullPointerException.class, () -> fileCurrencyParser.getCurrencyRate(null));
     }
 
