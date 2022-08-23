@@ -37,11 +37,11 @@ public class FileCurrencyParser implements CurrencyParser {
                 }
             }
         } catch (FileNotFoundException e) {
-            logger.warning("Cannot find the file.");
+            logger.warning("Cannot find file.");
         } catch (IOException e) {
             logger.warning("Failed to open file.");
         } catch (XPathException | SAXException | ParserConfigurationException e) {
-            logger.warning("Failed to parse the document.");
+            logger.warning("Failed to parse document.");
         }
 
         throw new NullPointerException();
