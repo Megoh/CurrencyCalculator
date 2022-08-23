@@ -13,6 +13,7 @@ target/
 *.ipr
 out/
 .idea/
+.idea
 .idea_modules/
 
 ### Eclipse ###
